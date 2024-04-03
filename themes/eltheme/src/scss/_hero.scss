@@ -1,0 +1,26 @@
+.hero {
+   min-height: 500px;
+   display: flex;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-bottom: 1px solid $primary;
+   margin-top: 76px;
+   border-top: 3px solid $primary;
+}
+
+@media (max-width: 768px) {
+   .hero {
+      .container {
+         background-color: #ffffffb9;
+         padding: 3rem;
+      }
+   }
+}
+
+@media (min-width: 768px) { 
+   .hero {
+      background-size: contain;
+      background-position-x: right;
+   }
+
+}

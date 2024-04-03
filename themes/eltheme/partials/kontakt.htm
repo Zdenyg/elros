@@ -1,0 +1,56 @@
+[contactForm]
+==
+<section class="bg-primary text-white mt-5" id="kontakt">
+   <div class="container py-5">
+      <div class="row">
+         <div class="col">
+            <div class="heading ">
+               <svg class="icon-small">
+                  <use xlink:href="#kontakt-icon"></use>
+               </svg>
+               <h1 class="pt-3">Kontakt</h1>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-6">
+            <img src="{{ this.theme.logo_white_1 | media }}" class="me-5 my-2" alt="">
+            <img src="{{ this.theme.logo_white_2 | media }}" class="my-2" alt="">
+
+         <p class="fw-bold h5 pt-5 pb-3">{{ this.theme.website_name }}</p>
+         <div class="icon-text">
+               <svg class="icon-small">
+                  <use xlink:href="#map"></use>
+               </svg>
+               {{ this.theme.address | raw }}
+            </div>
+            <div class="icon-text">
+            <svg class="icon-small">
+               <use xlink:href="#mobil"></use>
+            </svg>
+
+            <p>{{ this.theme.phone_number }}</p>
+         </div>
+         <div class="icon-text">
+            <svg class="icon-small">
+               <use xlink:href="#envelope"></use>
+            </svg>
+            
+            <p>{{ this.theme.email }}</p>
+            
+         </div>
+         <div class="icon-text">
+            <svg class="icon-small">
+               <use xlink:href="#info"></use>
+            </svg>
+            
+            <p>IČ: {{ this.theme.ico }} <br>
+               DIČ: {{ this.theme.dic }}</p>
+            </div>
+         </div>
+      <div class="col-lg-6 pt-5">
+        <h5>Napište nám, brzy se vám ozveme.</h5>
+         {% component 'contactForm' %}
+      </div>
+   </div>
+</section>

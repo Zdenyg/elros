@@ -1,0 +1,29 @@
+
+{% partial 'sprite'%}
+<section id="security" class="my-5">
+<div class="container py-3">
+   <div class="row">
+      <div class="col">
+         <div class="heading ">
+            <svg class="icon bg-primary bg-gradient"><use xlink:href="#security-icon"></use></svg>
+            <div class="pl-5">
+               <h1 class="text-primary">{{ this.theme.security_title }}</h1>
+               <h2 class="text-secondary h5">{{ this.theme.security_subtitle }}</h2>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-6 mb-5" data-aos="fade-up">
+         {{ this.theme.security_left | raw }}
+         <div class="strip pt-3">
+            <img src="{{ this.theme.security_image | media}}" class="img-fluid" alt="">
+         </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+         {{ this.theme.security_right | raw}}
+      </div>
+   </div>
+</div>
+<div class="line"></div>
+</section>

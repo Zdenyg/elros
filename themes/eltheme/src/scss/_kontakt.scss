@@ -1,0 +1,20 @@
+.icon-small {
+   width: 35px;
+   height: 35px;
+   margin-right: 2rem;
+}
+.heading .icon-small {
+   width: 80px;
+   height: 80px;
+}
+.icon-text {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.form-control {
+   padding: 1.35rem 0.75rem;
+   margin-bottom: 1rem;
+   border-radius: 0;
+}

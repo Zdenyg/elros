@@ -1,0 +1,195 @@
+tabs:
+    fields:
+        # TAB: HERO
+        hero_title:
+            tab: Hero
+            label: Title
+            type: text
+            default: Bacon ipsum dolor
+        hero_subtitle:
+            tab: Hero
+            label: Subtitle
+            type: text
+            default: Voluptate ball tip jerky ullamco dolore
+        hero_button_text:
+            tab: Hero
+            label: Button Text
+            type: text
+            default: Know more
+            span: left
+        hero_button_url:
+            tab: Hero
+            label: Button URL
+            type: text
+            span: right
+        hero_image:
+            tab: Hero
+            label: Hero Image
+            type: mediafinder
+            mode: image
+        
+        # TAB: ZABEZPEČOVACÍ SYSTÉMY
+        security_title:
+            tab: Zabezpečovací sys.
+            label: Nadpis 
+            type: text
+        security_subtitle:
+            tab: Zabezpečovací sys.
+            label: Nadpis 
+            type: text
+        security_left:
+            tab: Zabezpečovací sys.  
+            label: Text 
+            type: richeditor
+            default:
+            span: left 
+        security_right:
+            tab: Zabezpečovací sys.  
+            label: Text 
+            type: richeditor
+            default:
+            span: right 
+        security_image:
+            tab: Zabezpečovací sys.
+            label: Foto
+            type: mediafinder
+            mode: image
+        
+        # TAB: FOTOVOLTAICKÉ SYSTÉMY
+        photovoltaic_title:
+            tab: Fotovoltaické sys.
+            label: Nadpis 
+            type: text
+            default:
+        photovoltaic_subtitle:
+            tab: Fotovoltaické sys.
+            label: Nadpis 
+            type: text
+            default:              
+        photovoltaic_left:
+            tab: Fotovoltaické sys.
+            label: Text 
+            type: richeditor
+            default:
+            span: left 
+        photovoltaic_right:
+            tab: Fotovoltaické sys.
+            label: Text 
+            type: richeditor
+            default:
+            span: right 
+        photovoltaic_image:
+            tab: Fotovoltaické sys.
+            label: Foto
+            type: mediafinder
+            mode: image
+          
+        # TAB: PROJEKTY
+        project_title:
+            tab: Projekty
+            label: Nadpis 
+            type: text
+            default:
+        project_subtitle:
+            tab: Projekty
+            label: Nadpis 
+            type: text
+            default:              
+        project_left:
+            tab: Projekty
+            label: Text 
+            type: richeditor
+            default:
+            span: left 
+        project_right:
+            tab: Projekty
+            label: Text 
+            type: richeditor
+            default:
+            span: right 
+
+        # TAB: Kontaktní údaje
+        website_name:
+            tab: Kontaktní údaje
+            label: Název webu
+            type: text
+            default: 
+            span: left
+            cssClass: col-md-6
+        address:
+            tab: Kontaktní údaje 
+            label: Adresa
+            type: richeditor
+            default: 
+            span: left
+            cssClass: col-md-6
+        phone_number:
+            tab: Kontaktní údaje 
+            label: Telefonní číslo 
+            type: text
+            default: 
+            span: right
+            cssClass: col-md-6
+        email:
+            tab: Kontaktní údaje 
+            label: Email 
+            type: text
+            default: email@email.com
+            span: right
+            cssClass: col-md-6
+        ico:
+            tab: Kontaktní údaje 
+            label: IČ 
+            type: text
+            default: 
+            span: right
+            cssClass: col-md-6
+        dic:
+            tab: Kontaktní údaje 
+            label: DIČ
+            type: text
+            default: 
+            span: right
+            cssClass: col-md-6
+        logo_color_1:
+            tab: Kontaktní údaje 
+            label: Logo 1 
+            type: mediafinder
+            mode: image
+            imageWidth: 100
+            imageHeight: 70
+            filetypes: svg  
+            span: storm
+            cssClass: col-md-3 
+        logo_color_2:
+            tab: Kontaktní údaje 
+            label: Logo 2
+            type: mediafinder
+            mode: image
+            imageWidth: 100
+            imageHeight: 70
+            filetypes: svg  
+            span: storm
+            cssClass: col-md-3 
+        logo_white_1:
+            tab: Kontaktní údaje 
+            label: Logo bílé 1
+            type: mediafinder
+            mode: image
+            imageWidth: 100
+            imageHeight: 70
+            filetypes: svg  
+            span: storm
+            cssClass: col-md-3    
+        logo_white_2:
+            tab: Kontaktní údaje 
+            label: Logo bílé 2
+            type: mediafinder
+            mode: image
+            imageWidth: 100
+            imageHeight: 70
+            filetypes: svg  
+            span: storm
+            cssClass: col-md-3                 
+       
+        
